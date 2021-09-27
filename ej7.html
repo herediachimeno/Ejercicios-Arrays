@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="div1"></div>
+    <script>
+      let array = [12, 24, 4, 8, 10, 9, 15, 6, 4, 8];
+
+      let media =
+        array[0] +
+        array[1] +
+        array[2] +
+        array[3] +
+        array[4] +
+        array[5] +
+        array[6] +
+        array[7] +
+        array[8] +
+        array[9] / 10;
+
+      document.getElementById("div1").innerHTML = `
+      
+      <p>La media de los valores es de ${media}.</p>
+      
+      `;
+    </script>
+  </body>
+</html>
